@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Senin için 💖</title>
+  <style>
+    body {
+      background: #ffe6f0;
+      color: #333;
+      font-family: 'Comic Sans MS', cursive;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #d63384;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px;
+    }
+    .heart {
+      font-size: 4em;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="heart">❤️</div>
+  <h1>Sevgilim [Aslıgül] için</h1>
+  <p>Seninle geçirdiğim her an bir mucize gibi.</p>
+  <p>Bu site sana olan sevgimi anlatmak için küçük bir hediye.</p>
+  <p>Seni çok seviyorum 💞</p>
+</body>
+</html>
